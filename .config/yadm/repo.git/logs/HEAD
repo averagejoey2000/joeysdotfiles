@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 db91de3511ce64de824a5a90dee12150b414627f Joey Simone <joseph@thesimones.us> 1604558754 -0800	commit (initial): First time uploading dotfiles with yadm
+db91de3511ce64de824a5a90dee12150b414627f 0000000000000000000000000000000000000000 Joey Simone <joseph@thesimones.us> 1604559274 -0800	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 db91de3511ce64de824a5a90dee12150b414627f Joey Simone <joseph@thesimones.us> 1604559274 -0800	Branch: renamed refs/heads/master to refs/heads/main
+db91de3511ce64de824a5a90dee12150b414627f afb9d7a0dd70191ad3fb9222aea959008ae983df Joey Simone <joseph@thesimones.us> 1604559770 -0800	commit: I don't know how to push encrypteds, so I won't yet.
