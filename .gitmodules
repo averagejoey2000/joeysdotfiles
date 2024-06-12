@@ -1,0 +1,3 @@
+[submodule ".vim"]
+	path = .vim
+	url = https://github.com/averagejoey2000/averagejoey2000.vim
