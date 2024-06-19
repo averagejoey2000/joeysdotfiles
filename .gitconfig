@@ -14,6 +14,8 @@
 [alias]
 	wdiff = diff --color-words --ignore-all-space
 	ldiff = difftool -y -t latex
+	dad = ! curl https://icanhazdadjoke.com/ && git add
+	out = fire
 
 [difftool.latex]
 	cmd = latexdiff "$LOCAL" "$REMOTE"
