@@ -1,0 +1,21 @@
+# vim: filetype=neomuttrc
+# muttrc file for account averagejoey2000@gmail.com
+set realname = "Joey Simone (she/her/he/him)"
+set from = "averagejoey2000@gmail.com"
+set sendmail = "msmtp -a averagejoey2000@gmail.com"
+alias me averagejoey2000 <averagejoey2000@gmail.com>
+set folder = "/home/averagejoey2000/.local/share/mail/averagejoey2000@gmail.com"
+set header_cache = "/home/averagejoey2000/.cache/mutt-wizard/averagejoey2000_gmail.com/headers"
+set message_cachedir = "/home/averagejoey2000/.cache/mutt-wizard/averagejoey2000_gmail.com/bodies"
+set mbox_type = Maildir
+set hostname = "gmail.com"
+source /usr/local/share/mutt-wizard/switch.muttrc
+set spoolfile = "+INBOX"
+set postponed = "+Drafts"
+set trash = "+Trash"
+set record = "+Sent"
+set ssl_starttls = yes
+set ssl_force_tls = yes
+
+macro index o "<shell-escape>mailsync averagejoey2000@gmail.com<enter>" "sync averagejoey2000@gmail.com"
+mailboxes "=INBOX" "=Mailing Lists/?[pg]" "=Spam 2" "=[Gmail]/All Mail" "=[Gmail]/Drafts" "=[Gmail]/Important" "=[Gmail]/Sent Mail" "=[Gmail]/Spam" "=[Gmail]/Starred" "=[Gmail]/Trash/dapperdeer24" "=[Mailbox]/Later" "=[Mailbox]/To Buy" "=[Mailbox]/To Read" "=[Mailbox]/To Watch"

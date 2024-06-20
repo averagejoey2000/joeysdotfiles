@@ -134,3 +134,4 @@ fi
 
 export GPG_TTY=$(tty)
 PATH="~/.local/bin:$PATH"
+alias mutt='neomutt'
