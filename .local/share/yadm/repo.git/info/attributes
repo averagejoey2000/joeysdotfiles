@@ -1,0 +1,10 @@
+*.key filter=git-crypt diff=git-crypt
+*.rev filter=git-crypt diff=git-crypt
+.config/keybase/** filter=git-crypt diff=git-crypt
+.config/Keybase/** filter=git-crypt diff=git-crypt
+attributes !filter !diff
+.gitattributes !filter !diff
+.ssh/** filter=git-crypt diff=git-crypt
+id_ed25519 filter=git-crypt diff=git-crypt
+.gnupg/private-keys-v1.d/** filter=git-crypt diff=git-crypt
+*.asc filter=git-crypt diff=git-crypt
