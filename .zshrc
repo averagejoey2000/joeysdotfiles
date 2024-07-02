@@ -131,3 +131,9 @@ if (( $+commands[zoxide] )); then
 else
   echo 'zoxide: command not found, please install it from https://github.com/ajeetdsouza/zoxide'
 fi
+autoload -Uz vcs_info
+precmd() { vcs_info }
+zstyle ':vcs_info:git:*' formats '%b '
+setopt PROMPT_SUBST
+PROMPT='%F{green}%n@%m%f: %F{blue}%~%f %F{red}${vcs_info_msg_0_}%f%(!.#.%%) ' 
+alias zshreload="source ~/.zshrc"
