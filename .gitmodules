@@ -1,3 +1,6 @@
 [submodule ".vim"]
 	path = .vim
 	url = https://github.com/averagejoey2000/averagejoey2000.vim
+[submodule "github/dracula-zsh"]
+	path = github/dracula-zsh
+	url = https://github.com/dracula/zsh.git
