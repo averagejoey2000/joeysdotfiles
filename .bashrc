@@ -135,4 +135,5 @@ fi
 export GPG_TTY=$(tty)
 PATH="~/.local/bin:$PATH"
 alias mutt='neomutt'
+set -o vi
 #eval "$(oh-my-posh init bash --config /usr/share/oh-my-posh/themes/dracula.omp.json)"
