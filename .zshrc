@@ -125,7 +125,7 @@ source $ZSH/oh-my-zsh.sh
 #ZSH_THEME=powerline
 
 source /usr/share/zsh/scripts/zplug/init.zsh
-zplug "dracula/zsh", as:theme
+# zplug "dracula/zsh", as:theme
  zplug "jeffreytse/zsh-vi-mode"
 # source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
