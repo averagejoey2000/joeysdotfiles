@@ -11,11 +11,13 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/alsa
+~MSle0~/current
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1721530729,,"wq"
+|2,0,1721533037,,"wq"
+:set nospell
+|2,0,1721532557,,"set nospell"
 :w
 |2,0,1721523173,,"w"
 :!mkdir ~/.mpd
@@ -28,14 +30,20 @@
 |2,0,1721520759,,"NoPencil"
 :q!
 |2,0,1721515211,,"q!"
-:set nospell
-|2,0,1721514613,,"set nospell"
 :SoftPencil
 |2,0,1721510993,,"SoftPencil"
 :r !wl-paste
 |2,0,1721496775,,"r !wl-paste"
 
 # Search String History (newest to oldest):
+?/current
+|2,1,1721533006,47,"current"
+?/progress
+|2,1,1721532912,47,"progress"
+?/color1
+|2,1,1721532812,47,"color1"
+??colums_list_format
+|2,1,1721532666,63,"colums_list_format"
 ?/alsa
 |2,1,1721523107,47,"alsa"
 ?/alias
@@ -93,236 +101,274 @@
 	
 |3,0,5,1,1,0,1721496799,""
 ""-	CHAR	0
-	no
-|3,1,36,0,1,0,1721530723,"no"
+	$
+|3,1,36,0,1,0,1721533036,"$"
 
 # global variables:
 
 # File marks:
-'0  423  0  ~/.config/mpd/mpd.conf
-|4,48,423,0,1721530729,"~/.config/mpd/mpd.conf"
-'1  291  1  ~/.config/mpd/mpd.conf
-|4,49,291,1,1721523188,"~/.config/mpd/mpd.conf"
-'2  291  1  ~/.config/mpd/mpd.conf
-|4,50,291,1,1721523188,"~/.config/mpd/mpd.conf"
-'3  101  4  ~/.zshrc
-|4,51,101,4,1721520980,"~/.zshrc"
-'4  113  23  ~/.zshrc
-|4,52,113,23,1721520933,"~/.zshrc"
-'5  1  0  ~/.sh_aliases
-|4,53,1,0,1721520881,"~/.sh_aliases"
-'6  113  23  ~/.zshrc
-|4,54,113,23,1721520833,"~/.zshrc"
-'7  2  1  ~/.sh_aliases
-|4,55,2,1,1721520771,"~/.sh_aliases"
-'8  2  0  ~/.sh_aliases
-|4,56,2,0,1721520771,"~/.sh_aliases"
-'9  1  23  ~/.sh_aliases
-|4,57,1,23,1721520716,"~/.sh_aliases"
+'0  197  29  ~/.config/ncmpcpp/config
+|4,48,197,29,1721533037,"~/.config/ncmpcpp/config"
+'1  187  23  ~/.config/ncmpcpp/config
+|4,49,187,23,1721532990,"~/.config/ncmpcpp/config"
+'2  187  23  ~/.config/ncmpcpp/config
+|4,50,187,23,1721532990,"~/.config/ncmpcpp/config"
+'3  1  52  ~/.config/ncmpcpp/config
+|4,51,1,52,1721532550,"~/.config/ncmpcpp/config"
+'4  1  52  ~/.config/ncmpcpp/config
+|4,52,1,52,1721532550,"~/.config/ncmpcpp/config"
+'5  1  52  ~/.config/ncmpcpp/config
+|4,53,1,52,1721532550,"~/.config/ncmpcpp/config"
+'6  1  52  ~/.config/ncmpcpp/config
+|4,54,1,52,1721532550,"~/.config/ncmpcpp/config"
+'7  7  3  ~/.local/share/yadm/repo.git/info/exclude
+|4,55,7,3,1721532325,"~/.local/share/yadm/repo.git/info/exclude"
+'8  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,56,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+'9  423  0  ~/.config/mpd/mpd.conf
+|4,57,423,0,1721530729,"~/.config/mpd/mpd.conf"
 
 # Jumplist (newest first):
+-'  197  29  ~/.config/ncmpcpp/config
+|4,39,197,29,1721533037,"~/.config/ncmpcpp/config"
+-'  119  63  ~/.config/ncmpcpp/config
+|4,39,119,63,1721533011,"~/.config/ncmpcpp/config"
+-'  118  22  ~/.config/ncmpcpp/config
+|4,39,118,22,1721533010,"~/.config/ncmpcpp/config"
+-'  59  37  ~/.config/ncmpcpp/config
+|4,39,59,37,1721533009,"~/.config/ncmpcpp/config"
+-'  50  17  ~/.config/ncmpcpp/config
+|4,39,50,17,1721533008,"~/.config/ncmpcpp/config"
+-'  35  134  ~/.config/ncmpcpp/config
+|4,39,35,134,1721533007,"~/.config/ncmpcpp/config"
+-'  1  0  ~/.config/ncmpcpp/config
+|4,39,1,0,1721533006,"~/.config/ncmpcpp/config"
+-'  187  23  ~/.config/ncmpcpp/config
+|4,39,187,23,1721532990,"~/.config/ncmpcpp/config"
+-'  187  23  ~/.config/ncmpcpp/config
+|4,39,187,23,1721532990,"~/.config/ncmpcpp/config"
+-'  140  23  ~/.config/ncmpcpp/config
+|4,39,140,23,1721532949,"~/.config/ncmpcpp/config"
+-'  140  23  ~/.config/ncmpcpp/config
+|4,39,140,23,1721532949,"~/.config/ncmpcpp/config"
+-'  198  46  ~/.config/ncmpcpp/config
+|4,39,198,46,1721532912,"~/.config/ncmpcpp/config"
+-'  198  46  ~/.config/ncmpcpp/config
+|4,39,198,46,1721532912,"~/.config/ncmpcpp/config"
+-'  137  14  ~/.config/ncmpcpp/config
+|4,39,137,14,1721532840,"~/.config/ncmpcpp/config"
+-'  137  14  ~/.config/ncmpcpp/config
+|4,39,137,14,1721532840,"~/.config/ncmpcpp/config"
+-'  135  25  ~/.config/ncmpcpp/config
+|4,39,135,25,1721532812,"~/.config/ncmpcpp/config"
+-'  135  25  ~/.config/ncmpcpp/config
+|4,39,135,25,1721532812,"~/.config/ncmpcpp/config"
+-'  32  0  ~/.config/ncmpcpp/config
+|4,39,32,0,1721532559,"~/.config/ncmpcpp/config"
+-'  32  0  ~/.config/ncmpcpp/config
+|4,39,32,0,1721532559,"~/.config/ncmpcpp/config"
+-'  1  0  ~/.config/ncmpcpp/config
+|4,39,1,0,1721532551,"~/.config/ncmpcpp/config"
+-'  1  52  ~/.config/ncmpcpp/config
+|4,39,1,52,1721532550,"~/.config/ncmpcpp/config"
+-'  131  23  ~/.config/ncmpcpp/config
+|4,39,131,23,1721532545,"~/.config/ncmpcpp/config"
+-'  131  23  ~/.config/ncmpcpp/config
+|4,39,131,23,1721532545,"~/.config/ncmpcpp/config"
+-'  131  23  ~/.config/ncmpcpp/config
+|4,39,131,23,1721532545,"~/.config/ncmpcpp/config"
+-'  2  0  ~/.config/ncmpcpp/config
+|4,39,2,0,1721532345,"~/.config/ncmpcpp/config"
+-'  2  0  ~/.config/ncmpcpp/config
+|4,39,2,0,1721532345,"~/.config/ncmpcpp/config"
+-'  2  0  ~/.config/ncmpcpp/config
+|4,39,2,0,1721532345,"~/.config/ncmpcpp/config"
+-'  7  3  ~/.local/share/yadm/repo.git/info/exclude
+|4,39,7,3,1721532325,"~/.local/share/yadm/repo.git/info/exclude"
+-'  7  3  ~/.local/share/yadm/repo.git/info/exclude
+|4,39,7,3,1721532325,"~/.local/share/yadm/repo.git/info/exclude"
+-'  7  3  ~/.local/share/yadm/repo.git/info/exclude
+|4,39,7,3,1721532325,"~/.local/share/yadm/repo.git/info/exclude"
+-'  7  3  ~/.local/share/yadm/repo.git/info/exclude
+|4,39,7,3,1721532325,"~/.local/share/yadm/repo.git/info/exclude"
+-'  7  3  ~/.local/share/yadm/repo.git/info/exclude
+|4,39,7,3,1721532325,"~/.local/share/yadm/repo.git/info/exclude"
+-'  7  3  ~/.local/share/yadm/repo.git/info/exclude
+|4,39,7,3,1721532325,"~/.local/share/yadm/repo.git/info/exclude"
+-'  7  3  ~/.local/share/yadm/repo.git/info/exclude
+|4,39,7,3,1721532325,"~/.local/share/yadm/repo.git/info/exclude"
+-'  7  3  ~/.local/share/yadm/repo.git/info/exclude
+|4,39,7,3,1721532325,"~/.local/share/yadm/repo.git/info/exclude"
+-'  1  0  ~/.local/share/yadm/repo.git/info/exclude
+|4,39,1,0,1721532321,"~/.local/share/yadm/repo.git/info/exclude"
+-'  1  0  ~/.local/share/yadm/repo.git/info/exclude
+|4,39,1,0,1721532321,"~/.local/share/yadm/repo.git/info/exclude"
+-'  1  0  ~/.local/share/yadm/repo.git/info/exclude
+|4,39,1,0,1721532321,"~/.local/share/yadm/repo.git/info/exclude"
+-'  1  0  ~/.local/share/yadm/repo.git/info/exclude
+|4,39,1,0,1721532321,"~/.local/share/yadm/repo.git/info/exclude"
+-'  1  0  ~/.local/share/yadm/repo.git/info/exclude
+|4,39,1,0,1721532321,"~/.local/share/yadm/repo.git/info/exclude"
+-'  1  0  ~/.local/share/yadm/repo.git/info/exclude
+|4,39,1,0,1721532321,"~/.local/share/yadm/repo.git/info/exclude"
+-'  1  0  ~/.local/share/yadm/repo.git/info/exclude
+|4,39,1,0,1721532321,"~/.local/share/yadm/repo.git/info/exclude"
+-'  1  0  ~/.local/share/yadm/repo.git/info/exclude
+|4,39,1,0,1721532321,"~/.local/share/yadm/repo.git/info/exclude"
+-'  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  32  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,32,1721530770,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
 -'  423  0  ~/.config/mpd/mpd.conf
 |4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
 -'  1  0  ~/.config/mpd/mpd.conf
 |4,39,1,0,1721530579,"~/.config/mpd/mpd.conf"
--'  291  1  ~/.config/mpd/mpd.conf
-|4,39,291,1,1721523188,"~/.config/mpd/mpd.conf"
--'  291  1  ~/.config/mpd/mpd.conf
-|4,39,291,1,1721523188,"~/.config/mpd/mpd.conf"
--'  119  0  ~/.config/mpd/mpd.conf
-|4,39,119,0,1721523107,"~/.config/mpd/mpd.conf"
--'  119  0  ~/.config/mpd/mpd.conf
-|4,39,119,0,1721523107,"~/.config/mpd/mpd.conf"
--'  91  4  ~/.config/mpd/mpd.conf
-|4,39,91,4,1721522704,"~/.config/mpd/mpd.conf"
--'  91  4  ~/.config/mpd/mpd.conf
-|4,39,91,4,1721522704,"~/.config/mpd/mpd.conf"
 -'  1  0  ~/.config/mpd/mpd.conf
-|4,39,1,0,1721522283,"~/.config/mpd/mpd.conf"
--'  101  4  ~/.zshrc
-|4,39,101,4,1721520980,"~/.zshrc"
--'  101  4  ~/.zshrc
-|4,39,101,4,1721520980,"~/.zshrc"
--'  101  4  ~/.zshrc
-|4,39,101,4,1721520980,"~/.zshrc"
--'  101  4  ~/.zshrc
-|4,39,101,4,1721520980,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1721520954,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1721520954,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1721520954,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1721520954,"~/.zshrc"
--'  13  1  ~/.aliases.zsh
-|4,39,13,1,1721520952,"~/.aliases.zsh"
--'  13  1  ~/.aliases.zsh
-|4,39,13,1,1721520952,"~/.aliases.zsh"
--'  13  1  ~/.aliases.zsh
-|4,39,13,1,1721520952,"~/.aliases.zsh"
--'  13  1  ~/.aliases.zsh
-|4,39,13,1,1721520952,"~/.aliases.zsh"
--'  113  23  ~/.zshrc
-|4,39,113,23,1721520933,"~/.zshrc"
--'  113  23  ~/.zshrc
-|4,39,113,23,1721520933,"~/.zshrc"
--'  113  23  ~/.zshrc
-|4,39,113,23,1721520933,"~/.zshrc"
--'  113  23  ~/.zshrc
-|4,39,113,23,1721520933,"~/.zshrc"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520881,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520881,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520881,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520881,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520881,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520881,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520881,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520881,"~/.sh_aliases"
--'  92  16  ~/.zshrc
-|4,39,92,16,1721520864,"~/.zshrc"
--'  92  16  ~/.zshrc
-|4,39,92,16,1721520864,"~/.zshrc"
--'  92  16  ~/.zshrc
-|4,39,92,16,1721520864,"~/.zshrc"
--'  92  16  ~/.zshrc
-|4,39,92,16,1721520864,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1721520861,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1721520861,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1721520861,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1721520861,"~/.zshrc"
--'  113  23  ~/.zshrc
-|4,39,113,23,1721520833,"~/.zshrc"
--'  113  23  ~/.zshrc
-|4,39,113,23,1721520833,"~/.zshrc"
--'  113  23  ~/.zshrc
-|4,39,113,23,1721520833,"~/.zshrc"
--'  113  23  ~/.zshrc
-|4,39,113,23,1721520833,"~/.zshrc"
--'  113  23  ~/.zshrc
-|4,39,113,23,1721520833,"~/.zshrc"
--'  113  23  ~/.zshrc
-|4,39,113,23,1721520833,"~/.zshrc"
--'  113  23  ~/.zshrc
-|4,39,113,23,1721520833,"~/.zshrc"
--'  113  23  ~/.zshrc
-|4,39,113,23,1721520833,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1721520789,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1721520789,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1721520789,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1721520789,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1721520789,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1721520789,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1721520789,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1721520789,"~/.zshrc"
--'  2  1  ~/.sh_aliases
-|4,39,2,1,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  1  ~/.sh_aliases
-|4,39,2,1,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  1  ~/.sh_aliases
-|4,39,2,1,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  1  ~/.sh_aliases
-|4,39,2,1,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  1  ~/.sh_aliases
-|4,39,2,1,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  1  ~/.sh_aliases
-|4,39,2,1,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  1  ~/.sh_aliases
-|4,39,2,1,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  1  ~/.sh_aliases
-|4,39,2,1,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  2  0  ~/.sh_aliases
-|4,39,2,0,1721520771,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520734,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520734,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520734,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520734,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520734,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520734,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520734,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520734,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520734,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520734,"~/.sh_aliases"
--'  1  0  ~/.sh_aliases
-|4,39,1,0,1721520734,"~/.sh_aliases"
+|4,39,1,0,1721530579,"~/.config/mpd/mpd.conf"
+-'  1  0  ~/.config/mpd/mpd.conf
+|4,39,1,0,1721530579,"~/.config/mpd/mpd.conf"
+-'  1  0  ~/.config/mpd/mpd.conf
+|4,39,1,0,1721530579,"~/.config/mpd/mpd.conf"
+-'  1  0  ~/.config/mpd/mpd.conf
+|4,39,1,0,1721530579,"~/.config/mpd/mpd.conf"
+-'  1  0  ~/.config/mpd/mpd.conf
+|4,39,1,0,1721530579,"~/.config/mpd/mpd.conf"
+-'  1  0  ~/.config/mpd/mpd.conf
+|4,39,1,0,1721530579,"~/.config/mpd/mpd.conf"
+-'  1  0  ~/.config/mpd/mpd.conf
+|4,39,1,0,1721530579,"~/.config/mpd/mpd.conf"
+-'  1  0  ~/.config/mpd/mpd.conf
+|4,39,1,0,1721530579,"~/.config/mpd/mpd.conf"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/ncmpcpp/config
+	*	1721533036	0
+	"	197	29
+	^	140	24
+	.	197	29
+	+	4	24
+	+	103	18
+	+	1	52
+	+	169	0
+	+	172	0
+	+	131	30
+	+	132	21
+	+	133	26
+	+	134	25
+	+	135	25
+	+	136	14
+	+	137	15
+	+	196	36
+	+	197	30
+	+	198	46
+	+	138	25
+	+	140	23
+	+	197	29
+
+> ~/.local/share/yadm/repo.git/info/exclude
+	*	1721532324	0
+	"	7	3
+	^	7	4
+	.	7	3
+	+	7	3
+
+> ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+	*	1721530769	0
+	"	1	32
+	^	1	33
+	.	1	32
+	+	1	32
 
 > ~/.config/mpd/mpd.conf
 	*	1721530727	0
