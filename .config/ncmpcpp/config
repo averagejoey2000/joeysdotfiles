@@ -31,8 +31,8 @@ visualizer_spectrum_hz_max = 20000
 # visualizer_look = "▒░"
 
 ## Custom command that will be executed each time song changes
-execute_on_song_change = musnotify
-# execute_on_song_change = notify-send -i ~/.local/share/icons/vinyl.svg "Now Playing" "$(mpc --format '%title% \n%artist% - %album%' current)"
+# execute_on_song_change = musnotify
+execute_on_song_change = notify-send -i ~/.local/share/icons/vinyl.svg "Now Playing" "$(mpc --format '%title% \n%artist% - %album%' current)"
 [misc]
 discard_colors_if_item_is_selected = yes
 show_duplicate_tags = no
