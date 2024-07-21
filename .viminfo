@@ -11,11 +11,15 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/alias
+~MSle0~/alsa
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1721520980,,"wq"
+|2,0,1721530729,,"wq"
+:w
+|2,0,1721523173,,"w"
+:!mkdir ~/.mpd
+|2,0,1721522494,,"!mkdir ~/.mpd"
 :vsplit ~/.zshrc
 |2,0,1721520952,,"vsplit ~/.zshrc"
 :q
@@ -32,6 +36,8 @@
 |2,0,1721496775,,"r !wl-paste"
 
 # Search String History (newest to oldest):
+?/alsa
+|2,1,1721523107,47,"alsa"
 ?/alias
 |2,1,1721520954,47,"alias"
 ?/lias
@@ -48,7 +54,7 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
 	alias zshconfig="source ~/.zshrc"
 	alias ohmyzsh="mate ~/.oh-my-zsh"
 	alias ll='ls -lh'
@@ -61,7 +67,7 @@
 	    alias grep='grep --color=auto'
 	    alias fgrep='fgrep --color=auto'
 	    alias egrep='egrep --color=auto'
-|3,1,1,1,12,0,1721520966,"alias zshconfig=\"source ~/.zshrc\"","alias ohmyzsh=\"mate ~/.oh-my-zsh\"","alias ll='ls -lh'","alias la='ls -A'","alias l='ls -CF'","    alias ls='ls --color=auto'","    alias dir='dir --color=auto'","    alias vdir='vdir --color=auto'","","    alias grep='grep --color=auto'","    alias fgrep='fgrep --color=auto'","    alias egrep='egrep --color=auto'"
+|3,0,1,1,12,0,1721520966,"alias zshconfig=\"source ~/.zshrc\"","alias ohmyzsh=\"mate ~/.oh-my-zsh\"","alias ll='ls -lh'","alias la='ls -A'","alias l='ls -CF'","    alias ls='ls --color=auto'","    alias dir='dir --color=auto'","    alias vdir='vdir --color=auto'","","    alias grep='grep --color=auto'","    alias fgrep='fgrep --color=auto'","    alias egrep='egrep --color=auto'"
 "2	CHAR	0
 	see picture) under statements.
 |3,0,2,0,1,0,1721511518,"see picture) under statements."
@@ -86,59 +92,197 @@
 "5	LINE	0
 	
 |3,0,5,1,1,0,1721496799,""
-"-	CHAR	0
-	export
-|3,0,36,0,1,0,1721520875,"export"
+""-	CHAR	0
+	no
+|3,1,36,0,1,0,1721530723,"no"
 
 # global variables:
 
 # File marks:
-'0  101  4  ~/.zshrc
-|4,48,101,4,1721520980,"~/.zshrc"
-'1  113  23  ~/.zshrc
-|4,49,113,23,1721520933,"~/.zshrc"
-'2  1  0  ~/.sh_aliases
-|4,50,1,0,1721520881,"~/.sh_aliases"
-'3  113  23  ~/.zshrc
-|4,51,113,23,1721520833,"~/.zshrc"
-'4  2  1  ~/.sh_aliases
-|4,52,2,1,1721520771,"~/.sh_aliases"
-'5  2  0  ~/.sh_aliases
-|4,53,2,0,1721520771,"~/.sh_aliases"
-'6  1  23  ~/.sh_aliases
-|4,54,1,23,1721520716,"~/.sh_aliases"
-'7  1  23  ~/.sh_aliases
-|4,55,1,23,1721520716,"~/.sh_aliases"
-'8  1  23  ~/.sh_aliases
-|4,56,1,23,1721520716,"~/.sh_aliases"
-'9  1  0  ~/.config/clyrics
-|4,57,1,0,1721515211,"~/.config/clyrics"
+'0  423  0  ~/.config/mpd/mpd.conf
+|4,48,423,0,1721530729,"~/.config/mpd/mpd.conf"
+'1  291  1  ~/.config/mpd/mpd.conf
+|4,49,291,1,1721523188,"~/.config/mpd/mpd.conf"
+'2  291  1  ~/.config/mpd/mpd.conf
+|4,50,291,1,1721523188,"~/.config/mpd/mpd.conf"
+'3  101  4  ~/.zshrc
+|4,51,101,4,1721520980,"~/.zshrc"
+'4  113  23  ~/.zshrc
+|4,52,113,23,1721520933,"~/.zshrc"
+'5  1  0  ~/.sh_aliases
+|4,53,1,0,1721520881,"~/.sh_aliases"
+'6  113  23  ~/.zshrc
+|4,54,113,23,1721520833,"~/.zshrc"
+'7  2  1  ~/.sh_aliases
+|4,55,2,1,1721520771,"~/.sh_aliases"
+'8  2  0  ~/.sh_aliases
+|4,56,2,0,1721520771,"~/.sh_aliases"
+'9  1  23  ~/.sh_aliases
+|4,57,1,23,1721520716,"~/.sh_aliases"
 
 # Jumplist (newest first):
+-'  423  0  ~/.config/mpd/mpd.conf
+|4,39,423,0,1721530729,"~/.config/mpd/mpd.conf"
+-'  1  0  ~/.config/mpd/mpd.conf
+|4,39,1,0,1721530579,"~/.config/mpd/mpd.conf"
+-'  291  1  ~/.config/mpd/mpd.conf
+|4,39,291,1,1721523188,"~/.config/mpd/mpd.conf"
+-'  291  1  ~/.config/mpd/mpd.conf
+|4,39,291,1,1721523188,"~/.config/mpd/mpd.conf"
+-'  119  0  ~/.config/mpd/mpd.conf
+|4,39,119,0,1721523107,"~/.config/mpd/mpd.conf"
+-'  119  0  ~/.config/mpd/mpd.conf
+|4,39,119,0,1721523107,"~/.config/mpd/mpd.conf"
+-'  91  4  ~/.config/mpd/mpd.conf
+|4,39,91,4,1721522704,"~/.config/mpd/mpd.conf"
+-'  91  4  ~/.config/mpd/mpd.conf
+|4,39,91,4,1721522704,"~/.config/mpd/mpd.conf"
+-'  1  0  ~/.config/mpd/mpd.conf
+|4,39,1,0,1721522283,"~/.config/mpd/mpd.conf"
+-'  101  4  ~/.zshrc
+|4,39,101,4,1721520980,"~/.zshrc"
+-'  101  4  ~/.zshrc
+|4,39,101,4,1721520980,"~/.zshrc"
+-'  101  4  ~/.zshrc
+|4,39,101,4,1721520980,"~/.zshrc"
 -'  101  4  ~/.zshrc
 |4,39,101,4,1721520980,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1721520954,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1721520954,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1721520954,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1721520954,"~/.zshrc"
 -'  13  1  ~/.aliases.zsh
 |4,39,13,1,1721520952,"~/.aliases.zsh"
+-'  13  1  ~/.aliases.zsh
+|4,39,13,1,1721520952,"~/.aliases.zsh"
+-'  13  1  ~/.aliases.zsh
+|4,39,13,1,1721520952,"~/.aliases.zsh"
+-'  13  1  ~/.aliases.zsh
+|4,39,13,1,1721520952,"~/.aliases.zsh"
+-'  113  23  ~/.zshrc
+|4,39,113,23,1721520933,"~/.zshrc"
+-'  113  23  ~/.zshrc
+|4,39,113,23,1721520933,"~/.zshrc"
+-'  113  23  ~/.zshrc
+|4,39,113,23,1721520933,"~/.zshrc"
 -'  113  23  ~/.zshrc
 |4,39,113,23,1721520933,"~/.zshrc"
 -'  1  0  ~/.sh_aliases
 |4,39,1,0,1721520881,"~/.sh_aliases"
 -'  1  0  ~/.sh_aliases
 |4,39,1,0,1721520881,"~/.sh_aliases"
+-'  1  0  ~/.sh_aliases
+|4,39,1,0,1721520881,"~/.sh_aliases"
+-'  1  0  ~/.sh_aliases
+|4,39,1,0,1721520881,"~/.sh_aliases"
+-'  1  0  ~/.sh_aliases
+|4,39,1,0,1721520881,"~/.sh_aliases"
+-'  1  0  ~/.sh_aliases
+|4,39,1,0,1721520881,"~/.sh_aliases"
+-'  1  0  ~/.sh_aliases
+|4,39,1,0,1721520881,"~/.sh_aliases"
+-'  1  0  ~/.sh_aliases
+|4,39,1,0,1721520881,"~/.sh_aliases"
 -'  92  16  ~/.zshrc
 |4,39,92,16,1721520864,"~/.zshrc"
+-'  92  16  ~/.zshrc
+|4,39,92,16,1721520864,"~/.zshrc"
+-'  92  16  ~/.zshrc
+|4,39,92,16,1721520864,"~/.zshrc"
+-'  92  16  ~/.zshrc
+|4,39,92,16,1721520864,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1721520861,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1721520861,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1721520861,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1721520861,"~/.zshrc"
 -'  113  23  ~/.zshrc
 |4,39,113,23,1721520833,"~/.zshrc"
 -'  113  23  ~/.zshrc
 |4,39,113,23,1721520833,"~/.zshrc"
+-'  113  23  ~/.zshrc
+|4,39,113,23,1721520833,"~/.zshrc"
+-'  113  23  ~/.zshrc
+|4,39,113,23,1721520833,"~/.zshrc"
+-'  113  23  ~/.zshrc
+|4,39,113,23,1721520833,"~/.zshrc"
+-'  113  23  ~/.zshrc
+|4,39,113,23,1721520833,"~/.zshrc"
+-'  113  23  ~/.zshrc
+|4,39,113,23,1721520833,"~/.zshrc"
+-'  113  23  ~/.zshrc
+|4,39,113,23,1721520833,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1721520789,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1721520789,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1721520789,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1721520789,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1721520789,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1721520789,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1721520789,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1721520789,"~/.zshrc"
+-'  2  1  ~/.sh_aliases
+|4,39,2,1,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  1  ~/.sh_aliases
+|4,39,2,1,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  1  ~/.sh_aliases
+|4,39,2,1,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  1  ~/.sh_aliases
+|4,39,2,1,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  1  ~/.sh_aliases
+|4,39,2,1,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  1  ~/.sh_aliases
+|4,39,2,1,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
+-'  2  0  ~/.sh_aliases
+|4,39,2,0,1721520771,"~/.sh_aliases"
 -'  2  1  ~/.sh_aliases
 |4,39,2,1,1721520771,"~/.sh_aliases"
 -'  2  0  ~/.sh_aliases
@@ -167,156 +311,42 @@
 |4,39,1,0,1721520734,"~/.sh_aliases"
 -'  1  0  ~/.sh_aliases
 |4,39,1,0,1721520734,"~/.sh_aliases"
--'  1  23  ~/.sh_aliases
-|4,39,1,23,1721520716,"~/.sh_aliases"
--'  1  23  ~/.sh_aliases
-|4,39,1,23,1721520716,"~/.sh_aliases"
--'  1  23  ~/.sh_aliases
-|4,39,1,23,1721520716,"~/.sh_aliases"
--'  1  23  ~/.sh_aliases
-|4,39,1,23,1721520716,"~/.sh_aliases"
--'  1  23  ~/.sh_aliases
-|4,39,1,23,1721520716,"~/.sh_aliases"
--'  1  23  ~/.sh_aliases
-|4,39,1,23,1721520716,"~/.sh_aliases"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  1  0  ~/.config/clyrics
-|4,39,1,0,1721515211,"~/.config/clyrics"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
--'  2  16  ~/ponyville.pls
-|4,39,2,16,1721514706,"~/ponyville.pls"
+-'  1  0  ~/.sh_aliases
+|4,39,1,0,1721520734,"~/.sh_aliases"
+-'  1  0  ~/.sh_aliases
+|4,39,1,0,1721520734,"~/.sh_aliases"
+-'  1  0  ~/.sh_aliases
+|4,39,1,0,1721520734,"~/.sh_aliases"
+-'  1  0  ~/.sh_aliases
+|4,39,1,0,1721520734,"~/.sh_aliases"
+-'  1  0  ~/.sh_aliases
+|4,39,1,0,1721520734,"~/.sh_aliases"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/mpd/mpd.conf
+	*	1721530727	0
+	"	423	0
+	^	412	27
+	.	412	0
+	+	13	20
+	+	20	0
+	+	28	0
+	+	58	0
+	+	85	0
+	+	93	0
+	+	104	18
+	+	294	0
+	+	291	11
+	+	292	17
+	+	293	0
+	+	291	0
+	+	109	0
+	+	123	0
+	+	153	0
+	+	158	0
+	+	387	17
+	+	412	0
 
 > ~/.zshrc
 	*	1721520979	0
