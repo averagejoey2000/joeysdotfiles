@@ -14,6 +14,7 @@ method = ncurses
 [color]
 gradient = 1
 #Dracula
+gradient_count = 8
 gradient_color_1 = '#8BE9FD'
 gradient_color_2 = '#9AEDFE'
 gradient_color_3 = '#CAA9FA'

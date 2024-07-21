@@ -15,7 +15,17 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1721533404,,"wq"
+|2,0,1721534673,,"wq"
+:vsplit ~/github/cava/dracula.cava
+|2,0,1721534157,,"vsplit ~/github/cava/dracula.cava"
+:'<,'>norm gcc
+|2,0,1721534011,,"'<,'>norm gcc"
+:q!
+|2,0,1721533957,,"q!"
+:q
+|2,0,1721533934,,"q"
+:r !curl https://github.com/BachoSeven/dotfiles/raw/master/.config/cava/config
+|2,0,1721533920,,"r !curl https://github.com/BachoSeven/dotfiles/raw/master/.config/cava/config"
 :split ~/.config/mpd/mpd.conf
 |2,0,1721533364,,"split ~/.config/mpd/mpd.conf"
 :set nospell
@@ -26,12 +36,8 @@
 |2,0,1721522494,,"!mkdir ~/.mpd"
 :vsplit ~/.zshrc
 |2,0,1721520952,,"vsplit ~/.zshrc"
-:q
-|2,0,1721520933,,"q"
 :NoPencil
 |2,0,1721520759,,"NoPencil"
-:q!
-|2,0,1721515211,,"q!"
 :SoftPencil
 |2,0,1721510993,,"SoftPencil"
 :r !wl-paste
@@ -70,7 +76,31 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"1	LINE	0
+"0	LINE	0
+	gradient_color_1 = '#8BE9FD'
+	gradient_color_2 = '#9AEDFE'
+	gradient_color_3 = '#CAA9FA'
+	gradient_color_4 = '#BD93F9'
+	gradient_color_5 = '#FF92D0'
+	gradient_color_6 = '#FF79C6'
+	gradient_color_7 = '#FF6E67'
+	gradient_color_8 = '#FF5555'
+|3,0,0,1,8,0,1721534170,"gradient_color_1 = '#8BE9FD'","gradient_color_2 = '#9AEDFE'","gradient_color_3 = '#CAA9FA'","gradient_color_4 = '#BD93F9'","gradient_color_5 = '#FF92D0'","gradient_color_6 = '#FF79C6'","gradient_color_7 = '#FF6E67'","gradient_color_8 = '#FF5555'"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1721534195,""
+"2	BLOCK	27
+	gradient_count = 8
+	gradient_color_1 = '#b16286'
+	gradient_color_2 = '#a2788b'
+	gradient_color_3 = '#938e91'
+	gradient_color_4 = '#84a497'
+	gradient_color_5 = '#84a696'
+	gradient_color_6 = '#96ad71'
+	gradient_color_7 = '#a7b44b'
+	gradient_color_8 = '#b8bb26'
+|3,0,2,2,9,27,1721534059,"gradient_count = 8","gradient_color_1 = '#b16286'","gradient_color_2 = '#a2788b'","gradient_color_3 = '#938e91'","gradient_color_4 = '#84a497'","gradient_color_5 = '#84a696'","gradient_color_6 = '#96ad71'","gradient_color_7 = '#a7b44b'","gradient_color_8 = '#b8bb26'"
+"3	LINE	0
 	alias zshconfig="source ~/.zshrc"
 	alias ohmyzsh="mate ~/.oh-my-zsh"
 	alias ll='ls -lh'
@@ -83,14 +113,14 @@
 	    alias grep='grep --color=auto'
 	    alias fgrep='fgrep --color=auto'
 	    alias egrep='egrep --color=auto'
-|3,0,1,1,12,0,1721520966,"alias zshconfig=\"source ~/.zshrc\"","alias ohmyzsh=\"mate ~/.oh-my-zsh\"","alias ll='ls -lh'","alias la='ls -A'","alias l='ls -CF'","    alias ls='ls --color=auto'","    alias dir='dir --color=auto'","    alias vdir='vdir --color=auto'","","    alias grep='grep --color=auto'","    alias fgrep='fgrep --color=auto'","    alias egrep='egrep --color=auto'"
-"2	CHAR	0
-	see picture) under statements.
-|3,0,2,0,1,0,1721511518,"see picture) under statements."
-"3	LINE	0
-	I want to i
-|3,0,3,1,1,0,1721511089,"I want to i"
+|3,0,3,1,12,0,1721520966,"alias zshconfig=\"source ~/.zshrc\"","alias ohmyzsh=\"mate ~/.oh-my-zsh\"","alias ll='ls -lh'","alias la='ls -A'","alias l='ls -CF'","    alias ls='ls --color=auto'","    alias dir='dir --color=auto'","    alias vdir='vdir --color=auto'","","    alias grep='grep --color=auto'","    alias fgrep='fgrep --color=auto'","    alias egrep='egrep --color=auto'"
 "4	CHAR	0
+	see picture) under statements.
+|3,0,4,0,1,0,1721511518,"see picture) under statements."
+"5	LINE	0
+	I want to i
+|3,0,5,1,1,0,1721511089,"I want to i"
+"6	CHAR	0
 	averagejoey2000@Mjolnir-Endeavour --------------------------------- OS: 
 	EndeavourOS Linux x86_64 Host: 82FG IdeaPad 5 15ITL05 Kernel: 6.9.9-arch1-1 
 	Uptime: 1 hour, 2 mins Packages: 7 (npm), 2592 (pacman), 8 (steam) Shell: zsh 
@@ -103,242 +133,267 @@
 	
 	
 	
-|3,0,4,0,12,0,1721496821,"averagejoey2000@Mjolnir-Endeavour --------------------------------- OS: ","EndeavourOS Linux x86_64 Host: 82FG IdeaPad 5 15ITL05 Kernel: 6.9.9-arch1-1 ","Uptime: 1 hour, 2 mins Packages: 7 (npm), 2592 (pacman), 8 (steam) Shell: zsh ","5.9 Editor: VIM - Vi IMproved 9.1 Resolution: 1920x1080 DE: Plasma 6.1.3 [KF5 ] ","[Qt ] (wayland) WM: kwin_wayland_wr Theme: Breeze-Dark [GTK2/3] Icons: breeze ",>79
+|3,0,6,0,12,0,1721496821,"averagejoey2000@Mjolnir-Endeavour --------------------------------- OS: ","EndeavourOS Linux x86_64 Host: 82FG IdeaPad 5 15ITL05 Kernel: 6.9.9-arch1-1 ","Uptime: 1 hour, 2 mins Packages: 7 (npm), 2592 (pacman), 8 (steam) Shell: zsh ","5.9 Editor: VIM - Vi IMproved 9.1 Resolution: 1920x1080 DE: Plasma 6.1.3 [KF5 ] ","[Qt ] (wayland) WM: kwin_wayland_wr Theme: Breeze-Dark [GTK2/3] Icons: breeze ",>79
 |<"[GTK2], Colorful-Dark-Icons [GTK3] Cursor: whiteglass [GTK2], breeze_cursors ","[GTK3] Terminal: tmux CPU: 11th Gen Intel i7-1165G7 (8) @ 4.7GHz GPU: Intel ","TigerLake-LP GT2 [Iris Xe Graphics] Memory: 6.69 GiB / 11.47 GiB (58%) Network: ","Wifi6 Bluetooth: Intel Corp. AX201 BIOS: LENOVO 1.63 (10/12/2021) ","","",""
-"5	LINE	0
+"7	LINE	0
 	
-|3,0,5,1,1,0,1721496799,""
-""-	CHAR	0
+|3,0,7,1,1,0,1721496799,""
+"-	CHAR	0
 	my_fifo
-|3,1,36,0,1,0,1721533368,"my_fifo"
+|3,0,36,0,1,0,1721533368,"my_fifo"
 
 # global variables:
 
 # File marks:
-'0  304  38  ~/.config/mpd/mpd.conf
-|4,48,304,38,1721533404,"~/.config/mpd/mpd.conf"
-'1  307  0  ~/.config/mpd/mpd.conf
-|4,49,307,0,1721533323,"~/.config/mpd/mpd.conf"
-'2  307  0  ~/.config/mpd/mpd.conf
-|4,50,307,0,1721533323,"~/.config/mpd/mpd.conf"
-'3  1  28  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
-|4,51,1,28,1721533257,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
-'4  35  0  ~/.config/ncmpcpp/config
-|4,52,35,0,1721533218,"~/.config/ncmpcpp/config"
-'5  35  0  ~/.config/ncmpcpp/config
-|4,53,35,0,1721533218,"~/.config/ncmpcpp/config"
-'6  1  16  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
-|4,54,1,16,1721533085,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
-'7  197  29  ~/.config/ncmpcpp/config
-|4,55,197,29,1721533037,"~/.config/ncmpcpp/config"
-'8  197  29  ~/.config/ncmpcpp/config
-|4,56,197,29,1721533037,"~/.config/ncmpcpp/config"
-'9  197  29  ~/.config/ncmpcpp/config
-|4,57,197,29,1721533037,"~/.config/ncmpcpp/config"
+'0  35  28  ~/.config/cava/config
+|4,48,35,28,1721534673,"~/.config/cava/config"
+'1  17  17  ~/.config/cava/config
+|4,49,17,17,1721534586,"~/.config/cava/config"
+'2  17  17  ~/.config/cava/config
+|4,50,17,17,1721534586,"~/.config/cava/config"
+'3  5  0  ~/github/cava/dracula.cava
+|4,51,5,0,1721534204,"~/github/cava/dracula.cava"
+'4  1  0  ~/.config/cava/config
+|4,52,1,0,1721533957,"~/.config/cava/config"
+'5  1  0  ~/.config/cava/config
+|4,53,1,0,1721533957,"~/.config/cava/config"
+'6  1  0  ~/.config/cava/config
+|4,54,1,0,1721533957,"~/.config/cava/config"
+'7  1  0  ~/.config/cava/config
+|4,55,1,0,1721533957,"~/.config/cava/config"
+'8  1  0  ~/.config/cava/config
+|4,56,1,0,1721533957,"~/.config/cava/config"
+'9  1  0  ~/.config/cava/config
+|4,57,1,0,1721533957,"~/.config/cava/config"
 
 # Jumplist (newest first):
+-'  35  28  ~/.config/cava/config
+|4,39,35,28,1721534673,"~/.config/cava/config"
+-'  1  0  ~/.config/cava/config
+|4,39,1,0,1721534597,"~/.config/cava/config"
+-'  17  17  ~/.config/cava/config
+|4,39,17,17,1721534586,"~/.config/cava/config"
+-'  17  17  ~/.config/cava/config
+|4,39,17,17,1721534586,"~/.config/cava/config"
+-'  1  0  ~/.config/cava/config
+|4,39,1,0,1721534549,"~/.config/cava/config"
+-'  5  0  ~/github/cava/dracula.cava
+|4,39,5,0,1721534204,"~/github/cava/dracula.cava"
+-'  5  0  ~/github/cava/dracula.cava
+|4,39,5,0,1721534204,"~/github/cava/dracula.cava"
+-'  5  0  ~/github/cava/dracula.cava
+|4,39,5,0,1721534204,"~/github/cava/dracula.cava"
+-'  5  0  ~/github/cava/dracula.cava
+|4,39,5,0,1721534204,"~/github/cava/dracula.cava"
+-'  30  0  ~/.config/cava/config
+|4,39,30,0,1721534157,"~/.config/cava/config"
+-'  29  0  ~/.config/cava/config
+|4,39,29,0,1721534157,"~/.config/cava/config"
+-'  30  0  ~/.config/cava/config
+|4,39,30,0,1721534157,"~/.config/cava/config"
+-'  29  0  ~/.config/cava/config
+|4,39,29,0,1721534157,"~/.config/cava/config"
+-'  27  1  ~/.config/cava/config
+|4,39,27,1,1721534112,"~/.config/cava/config"
+-'  26  1  ~/.config/cava/config
+|4,39,26,1,1721534112,"~/.config/cava/config"
+-'  27  1  ~/.config/cava/config
+|4,39,27,1,1721534112,"~/.config/cava/config"
+-'  26  1  ~/.config/cava/config
+|4,39,26,1,1721534112,"~/.config/cava/config"
+-'  28  0  ~/.config/cava/config
+|4,39,28,0,1721534061,"~/.config/cava/config"
+-'  28  0  ~/.config/cava/config
+|4,39,28,0,1721534061,"~/.config/cava/config"
+-'  27  0  ~/.config/cava/config
+|4,39,27,0,1721534061,"~/.config/cava/config"
+-'  36  27  ~/.config/cava/config
+|4,39,36,27,1721534043,"~/.config/cava/config"
+-'  36  27  ~/.config/cava/config
+|4,39,36,27,1721534043,"~/.config/cava/config"
+-'  35  27  ~/.config/cava/config
+|4,39,35,27,1721534043,"~/.config/cava/config"
+-'  1  0  ~/.config/cava/config
+|4,39,1,0,1721533976,"~/.config/cava/config"
+-'  1  0  ~/.config/cava/config
+|4,39,1,0,1721533957,"~/.config/cava/config"
+-'  1  0  ~/.config/cava/config
+|4,39,1,0,1721533934,"~/.config/cava/config"
+-'  92  0  ~/.config/cava/config
+|4,39,92,0,1721533928,"~/.config/cava/config"
+-'  2  0  ~/.config/cava/config
+|4,39,2,0,1721533928,"~/.config/cava/config"
+-'  91  0  ~/.config/cava/config
+|4,39,91,0,1721533928,"~/.config/cava/config"
+-'  92  0  ~/.config/cava/config
+|4,39,92,0,1721533928,"~/.config/cava/config"
+-'  2  0  ~/.config/cava/config
+|4,39,2,0,1721533928,"~/.config/cava/config"
+-'  91  0  ~/.config/cava/config
+|4,39,91,0,1721533928,"~/.config/cava/config"
+-'  2  0  ~/.config/cava/config
+|4,39,2,0,1721533928,"~/.config/cava/config"
+-'  2  0  ~/.config/cava/config
+|4,39,2,0,1721533928,"~/.config/cava/config"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
+-'  1  19  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,19,1721533767,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
 -'  304  38  ~/.config/mpd/mpd.conf
 |4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
--'  1  0  ~/.config/mpd/mpd.conf
-|4,39,1,0,1721533366,"~/.config/mpd/mpd.conf"
--'  16  25  ~/.config/ncmpcpp/config
-|4,39,16,25,1721533364,"~/.config/ncmpcpp/config"
--'  1  0  ~/.config/ncmpcpp/config
-|4,39,1,0,1721533328,"~/.config/ncmpcpp/config"
--'  307  0  ~/.config/mpd/mpd.conf
-|4,39,307,0,1721533323,"~/.config/mpd/mpd.conf"
--'  307  0  ~/.config/mpd/mpd.conf
-|4,39,307,0,1721533323,"~/.config/mpd/mpd.conf"
--'  1  0  ~/.config/mpd/mpd.conf
-|4,39,1,0,1721533287,"~/.config/mpd/mpd.conf"
--'  1  28  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
-|4,39,1,28,1721533257,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
--'  1  28  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
-|4,39,1,28,1721533257,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
--'  1  28  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
-|4,39,1,28,1721533257,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
--'  1  28  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
-|4,39,1,28,1721533257,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
--'  35  0  ~/.config/ncmpcpp/config
-|4,39,35,0,1721533218,"~/.config/ncmpcpp/config"
--'  35  0  ~/.config/ncmpcpp/config
-|4,39,35,0,1721533218,"~/.config/ncmpcpp/config"
--'  35  0  ~/.config/ncmpcpp/config
-|4,39,35,0,1721533218,"~/.config/ncmpcpp/config"
--'  35  0  ~/.config/ncmpcpp/config
-|4,39,35,0,1721533218,"~/.config/ncmpcpp/config"
--'  35  0  ~/.config/ncmpcpp/config
-|4,39,35,0,1721533218,"~/.config/ncmpcpp/config"
--'  1  0  ~/.config/ncmpcpp/config
-|4,39,1,0,1721533204,"~/.config/ncmpcpp/config"
--'  1  0  ~/.config/ncmpcpp/config
-|4,39,1,0,1721533204,"~/.config/ncmpcpp/config"
--'  1  0  ~/.config/ncmpcpp/config
-|4,39,1,0,1721533204,"~/.config/ncmpcpp/config"
--'  1  0  ~/.config/ncmpcpp/config
-|4,39,1,0,1721533204,"~/.config/ncmpcpp/config"
--'  1  16  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
-|4,39,1,16,1721533085,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
--'  1  16  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
-|4,39,1,16,1721533085,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
--'  1  16  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
-|4,39,1,16,1721533085,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
--'  1  16  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
-|4,39,1,16,1721533085,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
--'  1  16  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
-|4,39,1,16,1721533085,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
--'  1  16  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
-|4,39,1,16,1721533085,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
--'  1  16  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
-|4,39,1,16,1721533085,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
--'  1  16  ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
-|4,39,1,16,1721533085,"~/.local/share/yadm/repo.git/COMMIT_EDITMSG"
--'  197  29  ~/.config/ncmpcpp/config
-|4,39,197,29,1721533037,"~/.config/ncmpcpp/config"
--'  197  29  ~/.config/ncmpcpp/config
-|4,39,197,29,1721533037,"~/.config/ncmpcpp/config"
--'  197  29  ~/.config/ncmpcpp/config
-|4,39,197,29,1721533037,"~/.config/ncmpcpp/config"
--'  197  29  ~/.config/ncmpcpp/config
-|4,39,197,29,1721533037,"~/.config/ncmpcpp/config"
--'  197  29  ~/.config/ncmpcpp/config
-|4,39,197,29,1721533037,"~/.config/ncmpcpp/config"
--'  197  29  ~/.config/ncmpcpp/config
-|4,39,197,29,1721533037,"~/.config/ncmpcpp/config"
--'  197  29  ~/.config/ncmpcpp/config
-|4,39,197,29,1721533037,"~/.config/ncmpcpp/config"
--'  197  29  ~/.config/ncmpcpp/config
-|4,39,197,29,1721533037,"~/.config/ncmpcpp/config"
--'  197  29  ~/.config/ncmpcpp/config
-|4,39,197,29,1721533037,"~/.config/ncmpcpp/config"
--'  197  29  ~/.config/ncmpcpp/config
-|4,39,197,29,1721533037,"~/.config/ncmpcpp/config"
--'  197  29  ~/.config/ncmpcpp/config
-|4,39,197,29,1721533037,"~/.config/ncmpcpp/config"
--'  197  29  ~/.config/ncmpcpp/config
-|4,39,197,29,1721533037,"~/.config/ncmpcpp/config"
--'  197  29  ~/.config/ncmpcpp/config
-|4,39,197,29,1721533037,"~/.config/ncmpcpp/config"
--'  119  63  ~/.config/ncmpcpp/config
-|4,39,119,63,1721533011,"~/.config/ncmpcpp/config"
--'  119  63  ~/.config/ncmpcpp/config
-|4,39,119,63,1721533011,"~/.config/ncmpcpp/config"
--'  119  63  ~/.config/ncmpcpp/config
-|4,39,119,63,1721533011,"~/.config/ncmpcpp/config"
--'  119  63  ~/.config/ncmpcpp/config
-|4,39,119,63,1721533011,"~/.config/ncmpcpp/config"
--'  119  63  ~/.config/ncmpcpp/config
-|4,39,119,63,1721533011,"~/.config/ncmpcpp/config"
--'  119  63  ~/.config/ncmpcpp/config
-|4,39,119,63,1721533011,"~/.config/ncmpcpp/config"
--'  119  63  ~/.config/ncmpcpp/config
-|4,39,119,63,1721533011,"~/.config/ncmpcpp/config"
--'  119  63  ~/.config/ncmpcpp/config
-|4,39,119,63,1721533011,"~/.config/ncmpcpp/config"
--'  119  63  ~/.config/ncmpcpp/config
-|4,39,119,63,1721533011,"~/.config/ncmpcpp/config"
--'  119  63  ~/.config/ncmpcpp/config
-|4,39,119,63,1721533011,"~/.config/ncmpcpp/config"
--'  119  63  ~/.config/ncmpcpp/config
-|4,39,119,63,1721533011,"~/.config/ncmpcpp/config"
--'  119  63  ~/.config/ncmpcpp/config
-|4,39,119,63,1721533011,"~/.config/ncmpcpp/config"
--'  119  63  ~/.config/ncmpcpp/config
-|4,39,119,63,1721533011,"~/.config/ncmpcpp/config"
--'  118  22  ~/.config/ncmpcpp/config
-|4,39,118,22,1721533010,"~/.config/ncmpcpp/config"
--'  118  22  ~/.config/ncmpcpp/config
-|4,39,118,22,1721533010,"~/.config/ncmpcpp/config"
--'  118  22  ~/.config/ncmpcpp/config
-|4,39,118,22,1721533010,"~/.config/ncmpcpp/config"
--'  118  22  ~/.config/ncmpcpp/config
-|4,39,118,22,1721533010,"~/.config/ncmpcpp/config"
--'  118  22  ~/.config/ncmpcpp/config
-|4,39,118,22,1721533010,"~/.config/ncmpcpp/config"
--'  118  22  ~/.config/ncmpcpp/config
-|4,39,118,22,1721533010,"~/.config/ncmpcpp/config"
--'  118  22  ~/.config/ncmpcpp/config
-|4,39,118,22,1721533010,"~/.config/ncmpcpp/config"
--'  118  22  ~/.config/ncmpcpp/config
-|4,39,118,22,1721533010,"~/.config/ncmpcpp/config"
--'  118  22  ~/.config/ncmpcpp/config
-|4,39,118,22,1721533010,"~/.config/ncmpcpp/config"
--'  118  22  ~/.config/ncmpcpp/config
-|4,39,118,22,1721533010,"~/.config/ncmpcpp/config"
--'  118  22  ~/.config/ncmpcpp/config
-|4,39,118,22,1721533010,"~/.config/ncmpcpp/config"
--'  118  22  ~/.config/ncmpcpp/config
-|4,39,118,22,1721533010,"~/.config/ncmpcpp/config"
--'  118  22  ~/.config/ncmpcpp/config
-|4,39,118,22,1721533010,"~/.config/ncmpcpp/config"
--'  59  37  ~/.config/ncmpcpp/config
-|4,39,59,37,1721533009,"~/.config/ncmpcpp/config"
--'  59  37  ~/.config/ncmpcpp/config
-|4,39,59,37,1721533009,"~/.config/ncmpcpp/config"
--'  59  37  ~/.config/ncmpcpp/config
-|4,39,59,37,1721533009,"~/.config/ncmpcpp/config"
--'  59  37  ~/.config/ncmpcpp/config
-|4,39,59,37,1721533009,"~/.config/ncmpcpp/config"
--'  59  37  ~/.config/ncmpcpp/config
-|4,39,59,37,1721533009,"~/.config/ncmpcpp/config"
--'  59  37  ~/.config/ncmpcpp/config
-|4,39,59,37,1721533009,"~/.config/ncmpcpp/config"
--'  59  37  ~/.config/ncmpcpp/config
-|4,39,59,37,1721533009,"~/.config/ncmpcpp/config"
--'  59  37  ~/.config/ncmpcpp/config
-|4,39,59,37,1721533009,"~/.config/ncmpcpp/config"
--'  59  37  ~/.config/ncmpcpp/config
-|4,39,59,37,1721533009,"~/.config/ncmpcpp/config"
--'  59  37  ~/.config/ncmpcpp/config
-|4,39,59,37,1721533009,"~/.config/ncmpcpp/config"
--'  59  37  ~/.config/ncmpcpp/config
-|4,39,59,37,1721533009,"~/.config/ncmpcpp/config"
--'  59  37  ~/.config/ncmpcpp/config
-|4,39,59,37,1721533009,"~/.config/ncmpcpp/config"
--'  59  37  ~/.config/ncmpcpp/config
-|4,39,59,37,1721533009,"~/.config/ncmpcpp/config"
--'  50  17  ~/.config/ncmpcpp/config
-|4,39,50,17,1721533008,"~/.config/ncmpcpp/config"
--'  50  17  ~/.config/ncmpcpp/config
-|4,39,50,17,1721533008,"~/.config/ncmpcpp/config"
--'  50  17  ~/.config/ncmpcpp/config
-|4,39,50,17,1721533008,"~/.config/ncmpcpp/config"
--'  50  17  ~/.config/ncmpcpp/config
-|4,39,50,17,1721533008,"~/.config/ncmpcpp/config"
--'  50  17  ~/.config/ncmpcpp/config
-|4,39,50,17,1721533008,"~/.config/ncmpcpp/config"
--'  50  17  ~/.config/ncmpcpp/config
-|4,39,50,17,1721533008,"~/.config/ncmpcpp/config"
--'  50  17  ~/.config/ncmpcpp/config
-|4,39,50,17,1721533008,"~/.config/ncmpcpp/config"
--'  50  17  ~/.config/ncmpcpp/config
-|4,39,50,17,1721533008,"~/.config/ncmpcpp/config"
--'  50  17  ~/.config/ncmpcpp/config
-|4,39,50,17,1721533008,"~/.config/ncmpcpp/config"
--'  50  17  ~/.config/ncmpcpp/config
-|4,39,50,17,1721533008,"~/.config/ncmpcpp/config"
--'  50  17  ~/.config/ncmpcpp/config
-|4,39,50,17,1721533008,"~/.config/ncmpcpp/config"
--'  50  17  ~/.config/ncmpcpp/config
-|4,39,50,17,1721533008,"~/.config/ncmpcpp/config"
--'  50  17  ~/.config/ncmpcpp/config
-|4,39,50,17,1721533008,"~/.config/ncmpcpp/config"
--'  35  134  ~/.config/ncmpcpp/config
-|4,39,35,134,1721533007,"~/.config/ncmpcpp/config"
--'  35  134  ~/.config/ncmpcpp/config
-|4,39,35,134,1721533007,"~/.config/ncmpcpp/config"
--'  35  134  ~/.config/ncmpcpp/config
-|4,39,35,134,1721533007,"~/.config/ncmpcpp/config"
--'  35  134  ~/.config/ncmpcpp/config
-|4,39,35,134,1721533007,"~/.config/ncmpcpp/config"
--'  35  134  ~/.config/ncmpcpp/config
-|4,39,35,134,1721533007,"~/.config/ncmpcpp/config"
--'  35  134  ~/.config/ncmpcpp/config
-|4,39,35,134,1721533007,"~/.config/ncmpcpp/config"
--'  35  134  ~/.config/ncmpcpp/config
-|4,39,35,134,1721533007,"~/.config/ncmpcpp/config"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
+-'  304  38  ~/.config/mpd/mpd.conf
+|4,39,304,38,1721533404,"~/.config/mpd/mpd.conf"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/cava/config
+	*	1721534671	0
+	"	35	28
+	^	17	18
+	.	17	17
+	+	92	0
+	+	91	12
+	+	27	0
+	+	28	0
+	+	16	7
+	+	18	0
+	+	26	0
+	+	17	17
+
+> ~/github/cava/dracula.cava
+	*	1721534202	0
+	"	5	0
+
+> ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
+	*	1721533766	0
+	"	1	19
+	^	1	20
+	.	1	19
+	+	1	19
 
 > ~/.config/mpd/mpd.conf
 	*	1721533402	0
@@ -391,13 +446,6 @@
 	+	197	29
 	+	34	0
 	+	35	0
-
-> ~/.local/share/yadm/repo.git/COMMIT_EDITMSG
-	*	1721533256	0
-	"	1	28
-	^	1	29
-	.	1	28
-	+	1	28
 
 > ~/.local/share/yadm/repo.git/info/exclude
 	*	1721532324	0
