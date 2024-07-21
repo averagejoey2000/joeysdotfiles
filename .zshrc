@@ -98,7 +98,7 @@ plugins=(git)
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-    source ~/.sh_aliases
+    source ~/.aliases.zsh
 export EDITOR=$VISUAL
 export VISUAL=vim
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
