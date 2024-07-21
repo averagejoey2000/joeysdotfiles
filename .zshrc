@@ -98,18 +98,7 @@ plugins=(git)
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ll='ls -lh'
-alias la='ls -A'
-alias l='ls -CF'
-    alias ls='ls --color=auto'
-    alias dir='dir --color=auto'
-    alias vdir='vdir --color=auto'
-
-    alias grep='grep --color=auto'
-    alias fgrep='fgrep --color=auto'
-    alias egrep='egrep --color=auto'
+    source ~/.sh_aliases
 export EDITOR=$VISUAL
 export VISUAL=vim
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh

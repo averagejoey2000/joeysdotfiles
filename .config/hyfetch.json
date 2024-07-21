@@ -1,0 +1,20 @@
+{
+    "preset": "genderfluid",
+    "mode": "rgb",
+    "light_dark": "dark",
+    "lightness": 0.57,
+    "color_align": {
+        "mode": "custom",
+        "custom_colors": {
+            "2": 2,
+            "1": 4,
+            "3": 0
+        },
+        "fore_back": []
+    },
+    "backend": "neofetch",
+    "args": null,
+    "distro": null,
+    "pride_month_shown": [],
+    "pride_month_disable": false
+}
