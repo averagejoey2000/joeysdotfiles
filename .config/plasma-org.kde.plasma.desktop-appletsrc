@@ -14,7 +14,23 @@ immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
+wallpaperplugin=org.kde.slideshow
+
+[Containments][209][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][209][Wallpaper][com.github.catsout.wallpaperEngineKde][General]
+Fps=10
+SteamLibraryPath[$e]=file:$HOME/.local/share/Steam
+VideoBackend=1
+WallpaperSource[$e]=file:$HOME/.local/share/Steam/steamapps/workshop/content/431960/2610353634/VE Project 12.mp4+video
+WallpaperWorkShopId=2610353634
+
+[Containments][209][Wallpaper][org.kde.slideshow][General]
+Image=file:///home/averagejoey2000/.local/share/wallpapers/Nostrum/
+SlidePaths=/home/averagejoey2000/.local/share/wallpapers/
+UncheckedSlides=/home/averagejoey2000/.local/share/wallpapers/0BlQRyf-red-vs-blue-wallpapers.jpg,/home/averagejoey2000/.local/share/wallpapers/Colorful-Circle-Wallpaper-With-Plasma-Logo.png,/home/averagejoey2000/.local/share/wallpapers/Nostrum/,/home/averagejoey2000/.local/share/wallpapers/Utterly-Sweet/
 
 [Containments][210]
 activityId=
@@ -116,7 +132,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][216][Applets][222][Configuration]
-PreloadWeight=75
+PreloadWeight=80
 
 [Containments][216][Applets][223]
 immutability=1
@@ -195,4 +211,4 @@ wallpaperplugin=org.kde.image
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/computer.desktop,0,7157cc27-d0ea-4f22-a2c6-fac2fdb731c6,desktop:/user-home.desktop,0,7157cc27-d0ea-4f22-a2c6-fac2fdb731c6,desktop:/network.desktop,0,7157cc27-d0ea-4f22-a2c6-fac2fdb731c6
+screenMapping=desktop:/computer.desktop,0,7157cc27-d0ea-4f22-a2c6-fac2fdb731c6,desktop:/Steam Linux Runtime 3.0 (sniper).desktop,0,7157cc27-d0ea-4f22-a2c6-fac2fdb731c6,desktop:/Wallpaper Engine.desktop,0,7157cc27-d0ea-4f22-a2c6-fac2fdb731c6,desktop:/Proton Experimental.desktop,0,7157cc27-d0ea-4f22-a2c6-fac2fdb731c6,desktop:/user-home.desktop,0,7157cc27-d0ea-4f22-a2c6-fac2fdb731c6,desktop:/network.desktop,0,7157cc27-d0ea-4f22-a2c6-fac2fdb731c6
