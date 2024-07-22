@@ -1,5 +1,7 @@
 # If you come from bash you might have to change your $PATH.
  export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+ # ruby gems for vimgolf
+ export PATH=/home/averagejoey2000/.local/share/gem/ruby/3.0.0/bin:$PATH
 
 # Path to your Oh My Zsh installation.
 ZSH=/usr/share/oh-my-zsh/
