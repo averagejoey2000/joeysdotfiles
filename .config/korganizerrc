@@ -1,5 +1,5 @@
 [Calendar]
-Default Calendar=-1
+Default Calendar=32
 
 [CollectionTreeView]
 Expansion=c10
@@ -17,7 +17,7 @@ Range Mode=1
 
 [GlobalCollectionSelection]
 Current=x-1
-Selection=c32,c12,c31,c7,c34,c33
+Selection=c33,c7,c34,c12,c31,c32
 
 [GlobalCollectionView]
 Expansion=c10
