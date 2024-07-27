@@ -90,7 +90,6 @@ plugins=(git)
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
-
 # Set personal aliases, overriding those provided by Oh My Zsh libs,
 # plugins, and themes. Aliases can be placed here, though Oh My Zsh
 # users are encouraged to define aliases within a top-level file in
@@ -103,6 +102,10 @@ plugins=(git)
     source ~/.aliases.zsh
 export EDITOR=$VISUAL
 export VISUAL=vim
+# use this if you want it to be impossible to open terminal without tmux
+# source ~/.start-tmux.sh
+# use this if you want to easily start tmux
+alias tms="tmuxinator start comfy"
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
