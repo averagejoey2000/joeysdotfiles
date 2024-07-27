@@ -15,3 +15,5 @@ alias l='ls -CF'
  alias pvl2="radio-cli -u  http://s5radio.ponyvillelive.com:8026/stream.mp3"
  alias pvl3="radio-cli -u  https://dj.bronyradio.com/pvfmfree.ogg"
  [ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
+ alias vifm="vifmrun"
+ alias mux="tmuxinator"
