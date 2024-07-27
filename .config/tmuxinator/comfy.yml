@@ -5,7 +5,7 @@ root: ~/
 
 windows:
   - Monitor:
-      layout: main-horizontal
+      layout: even-vertical
       panes:
         - ncmpcpp
         - btm
