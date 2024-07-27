@@ -1,0 +1,35 @@
+# /home/averagejoey2000/.config/tmuxinator/comfy.yml
+
+name: comfy
+root: ~/
+windows:
+  - Monitor:
+    layout: main-horizontal
+    panes:
+      - ncmpcpp
+      - btm
+  - Files:
+    layout: tiled
+    panes: 
+  - vifmrun
+  - IRC:
+    layout: tiled
+    panes: 
+  - weechat
+
+  - Editor:
+    layout: main-vertical
+    panes:
+      - vim
+      - clear
+  - Shell:
+    layout: main-vertical
+    panes:
+      - zsh
+      - zsh
+      # windows:
+      #   - editor:
+      #       layout: main-vertical
+      #       panes:
+      #         - vim
+      #         - guard
