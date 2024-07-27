@@ -2,33 +2,28 @@
 
 name: comfy
 root: ~/
-  windows:
-    - Monitor:
-        layout: main-horizontal
-        panes:
-          - ncmpcpp
-          - btm
-    - Files:
-        layout: tiled
-        panes: 
-          - vifm
-    - IRC:
-        layout: tiled
-        panes: 
-          - weechat
-    - Editor:
-        layout: main-vertical
-        panes:
-          - vim
-          - clear
-    - Shell:
-        layout: main-vertical
-        panes:
-          - zsh
-          - zsh
-      # windows:
-      #   - editor:
-      #       layout: main-vertical
-      #       panes:
-      #         - vim
-      #         - guard
+
+windows:
+  - Monitor:
+      layout: main-horizontal
+      panes:
+        - ncmpcpp
+        - btm
+  - Files:
+      layout: tiled
+      panes: 
+        - vifm
+  - IRC:
+      layout: tiled
+      panes: 
+        - weechat
+  - Editor:
+      layout: main-vertical
+      panes:
+        - vim
+        - clear
+  - Shell:
+      layout: main-vertical
+      panes:
+        - zsh
+        - zsh
