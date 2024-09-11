@@ -2,7 +2,7 @@
 Default Calendar=32
 
 [CollectionTreeView]
-Expansion=c10
+Expansion=
 HorizontalScroll=0
 VerticalScroll=0
 
@@ -17,21 +17,21 @@ Range Mode=1
 
 [GlobalCollectionSelection]
 Current=x-1
-Selection=c32,c31,c33,c34,c12,c7
+Selection=
 
 [GlobalCollectionView]
-Expansion=c10
+Expansion=
 HorizontalScroll=0
 VerticalScroll=0
 
 [Internal Settings]
-DefaultResourceColorSeed=4
+DefaultResourceColorSeed=5
 user_email=joseph@thesimones.us
 user_name=Joey Simone
 
 [KOrganizer Geometry]
 Separator1=610,925
-Separator2=181,0,226,270
+Separator2=183,0,228,272
 
 [MainWindow]
 ToolBarsMovable=Disabled
@@ -86,5 +86,5 @@ VerticalScroll=0
 ColorScheme=Dracula-purple
 
 [Views]
-Separator AgendaView=109,545
+Separator AgendaView=110,550
 ShownDatesCount=1

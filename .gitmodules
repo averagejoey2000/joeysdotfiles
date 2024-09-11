@@ -4,3 +4,18 @@
 [submodule "github/dracula-zsh"]
 	path = github/dracula-zsh
 	url = https://github.com/dracula/zsh.git
+[submodule ".config/emacs"]
+	path = .config/emacs
+	url = https://github.com/doomemacs/doomemacs
+[submodule ".config/waybar"]
+	path = .config/waybar
+	url = https://github.com/dracula/waybar.git
+[submodule "github/waybar"]
+	path = github/waybar
+	url = https://github.com/dracula/waybar.git
+[submodule "/home/averagejoey2000/.config/swaylock"]
+	path = /home/averagejoey2000/.config/swaylock
+	url = https://github.com/dracula/swaylock.git
+[submodule "/home/averagejoey2000/.config/swaybar"]
+	path = /home/averagejoey2000/.config/swaybar
+	url = https://github.com/dracula/waybar.git

@@ -25,5 +25,5 @@ windows:
   - Shell:
       layout: main-vertical
       panes:
-        - zsh
-        - zsh
+        - clear ; zsh
+        - clear ; zsh
