@@ -34,3 +34,10 @@
 [mergetool "kommitmerge"]
 	cmd = kommitmerge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 	trustExitCode = true
+[sendemail]
+	smtpserver = mail.cock.li
+	smtpuser = op://fksmbirsmj6ym77apgchjs7dni/6q53zlmrfap44zwskbrto5akge/username
+	smtpPass = op://fksmbirsmj6ym77apgchjs7dni/6q53zlmrfap44zwskbrto5akge/password
+	smtpencryption = ssl
+	smtpserverport = 465
+
