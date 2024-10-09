@@ -1,11 +1,10 @@
 [user]
 	name = Joey Simone
-	email = averagejoey2000@gmail.com
+	email = averagejoey2000@tfwno.gf
 	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPnaLeXkSuA5RKUDLcciW2YZx64pbBsrpClX6iibql3C
 [user]
 [gpg "ssh"]
 	program = /opt/1Password/op-ssh-sign
-#  program = "/mnt/c/Users/avera/AppData/Local/1Password/app/8/op-ssh-sign-wsl"
 
 [commit]
 	gpgsign = true
@@ -36,8 +35,9 @@
 	trustExitCode = true
 [sendemail]
 	smtpserver = mail.cock.li
-	smtpuser = op://fksmbirsmj6ym77apgchjs7dni/6q53zlmrfap44zwskbrto5akge/username
-	smtpPass = op://fksmbirsmj6ym77apgchjs7dni/6q53zlmrfap44zwskbrto5akge/password
+	smtpuser = averagejoey2000@tfwno.gf
 	smtpencryption = ssl
 	smtpserverport = 465
 
+[push]
+	autoSetupRemote = true

@@ -1,6 +1,23 @@
 [ActionsWidget]
 ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYwAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAA+gAAAAEAAAAAAAAAkgAAAAEAAAAAAAAD6AAAAABkAAAAAA==
 
+[Applets][33]
+immutability=1
+plugin=org.kde.plasma.weather
+
+[Applets][33][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Applets][33][Configuration][Units]
+pressureUnit=5022
+speedUnit=9005
+temperatureUnit=6002
+visibilityUnit=2024
+
+[Applets][33][Configuration][WeatherStation]
+source=wettercom|weather|Norfolk, Virginia, US|US0VA0555;Norfolk
+
 [ConfigDialog]
 1536x864 screen: Height=550
 1536x864 screen: Width=772
@@ -10,6 +27,9 @@ Number of Actions=0
 
 [PIMEventsPlugin]
 calendars=7,31,32,33,34
+
+[PlasmaTransientsConfig]
+PreloadWeight=0
 
 [PlasmaViews][Panel 105]
 floating=1
@@ -96,7 +116,7 @@ thickness=60
 [PlasmaViews][Panel 2]
 floating=1
 panelLengthMode=0
-panelVisibility=0
+panelVisibility=1
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=44
@@ -139,10 +159,12 @@ floating=1
 thickness=50
 
 [PlasmaViews][Panel 39]
-floating=1
+alignment=132
+floating=0
+panelLengthMode=1
 
 [PlasmaViews][Panel 39][Defaults]
-thickness=27
+thickness=44
 
 [PlasmaViews][Panel 45]
 floating=1
