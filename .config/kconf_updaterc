@@ -1,19 +1,19 @@
 updateInfoAdded=true
 
 [ark.upd]
-ctime=1726161667
+ctime=1728662362
 done=add-hamburgermenu-to-toolbar
-mtime=1726050442
+mtime=1728522065
 
 [dolphin_detailsmodesettings.upd]
-ctime=1726161670
+ctime=1728662363
 done=rename-leading-padding,move-content-display
-mtime=1726042389
+mtime=1728514206
 
 [dolphin_directorysizemode.upd]
-ctime=1726161670
+ctime=1728662363
 done=convert-directorysizecount-to-directorysizemode
-mtime=1726042389
+mtime=1728514206
 
 [filepicker.upd]
 ctime=1719683755
@@ -21,63 +21,63 @@ done=filepicker-remove-old-previews-entry
 mtime=1714841290
 
 [gtkconfig.upd]
-ctime=1726088456
+ctime=1729646090
 done=gtk_theme,dont_use_gtk_css_for_window_decorations,remove_deprecated_gtk4_option
-mtime=1726043042
+mtime=1729020730
 
 [kcalcrc.upd]
-ctime=1726161723
+ctime=1728662369
 done=remove_deprecated_gtk4_option
-mtime=1726050826
+mtime=1728522418
 
 [klickety.upd]
-ctime=1726161779
-mtime=1726044681
+ctime=1728662372
+mtime=1728516369
 
 [konsole.upd]
-ctime=1726161858
+ctime=1728662373
 done=konsole_globalaccel,add-hamburgermenu-to-toolbar
-mtime=1726051227
+mtime=1728522807
 
 [kwin.upd]
-ctime=1727734781
+ctime=1729646090
 done=remove_deprecated_gtk4_option,kwin-6.0-reset-active-mouse-screen,kwin-6.0-delete-desktop-switching-shortcuts,kwin-6.0-remove-breeze-tabbox-default,kwin-6.1-remove-gridview-expose-shortcuts
-mtime=1727448773
+mtime=1729110311
 
 [migrate-calendar-to-plugin-id.upd]
-ctime=1726088713
+ctime=1729646091
 done=kwin-6.1-remove-gridview-expose-shortcuts,migrate-calendar-plugins
-mtime=1726042232
+mtime=1729110672
 
 [okular.upd]
-ctime=1726162018
+ctime=1728662380
 done=annotation-toolbar,builtin-annotations
-mtime=1726045954
+mtime=1728517596
 
 [plasma6.0-remove-dpi-settings.upd]
-ctime=1726088713
+ctime=1729646091
 done=migrate-calendar-plugins,plasma6.0-remove-dpi-settings
-mtime=1726042232
+mtime=1729110672
 
 [plasma6.0-remove-old-shortcuts.upd]
-ctime=1726088713
+ctime=1729646091
 done=plasma6.0-remove-dpi-settings,plasma6.0-remove-old-shortcuts
-mtime=1726042232
+mtime=1729110672
 
 [plasmashell-6.0-keep-custom-position-of-panels.upd]
-ctime=1726088713
+ctime=1729646091
 done=plasma6.0-remove-old-shortcuts,plasmashell-6.0-keep-custom-position-of-panels
-mtime=1726042232
+mtime=1729110672
 
 [plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels.upd]
-ctime=1726088713
+ctime=1729646091
 done=plasmashell-6.0-keep-custom-position-of-panels,plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels
-mtime=1726042232
+mtime=1729110672
 
 [spectacle.upd]
-ctime=1726162103
+ctime=1728662383
 done=plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels,24.02.0-video_format,24.02.0-keep_old_save_location,24.02.0-rename_settings,24.02.0-keep_old_filename_templates,24.02.0-change_placeholder_format,24.05.2-change_placeholder_format
-mtime=1726046092
+mtime=1728517734
 
 [webenginepart.upd]
 ctime=1720221541

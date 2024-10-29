@@ -17,3 +17,4 @@ alias l='ls -CF'
  [ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
  alias vifm="vifmrun"
  alias mux="tmuxinator"
+alias slideshow="feh -rzZFq --scale-down"
